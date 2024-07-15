@@ -1,0 +1,43 @@
+
+
+body, .form-container
+{
+    background-color: #24353f;
+}
+body
+{
+    height: 100vh;
+    background-image: url(/5.gpj.webp);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p a:hover
+{
+    text-decoration: underline !important;
+}
+.form-container
+{
+    
+    background-color: rgba(.5, 0.5, 0.5,.8 ); 
+
+    margin-top: 5% !important;
+    
+    
+}
+input::placeholder
+{
+    color:  rgb(182, 182, 182) !important;
+}
+.navbar
+{
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+#usernameAlert, #userEmailAlert, #userPasswordAlert
+{
+    font-size: .10rem;
+}
